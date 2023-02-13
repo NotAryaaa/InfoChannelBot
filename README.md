@@ -4,14 +4,14 @@
 # InfoChannelBot
 🤖 A Free Source Code For Info Channels In Servers
 
-### 🚧 Requirements
+# 🚧 Requirements
 ### Bot Token
 ### Node 16+
 ### PRESENCE INTENT
 ### SERVER MEMBERS INTENT
 ### MESSAGE CONTENT INTENT
 
-### 🚁 Setup
+# 🚁 Setup
 ### Go to ```config.json``` and replace your bot token and status
 ### Go to terminal/console and type ```npm install```
 ### After npm is installed, Type ```npm start```
