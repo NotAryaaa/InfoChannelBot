@@ -2,7 +2,7 @@
 👆🏻 Example
 
 # InfoChannelBot
-🤖 A Free Source Code For Info Channels In Servers
+🤖 A Free Source Code For Info Channels In Servers (Using some weird systems) 
 
 # 🚧 Requirements
 ### Bot Token
