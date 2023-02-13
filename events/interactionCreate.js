@@ -5,7 +5,7 @@ module.exports = (client, inter) => {
         const Private = client.config.opt.Private;
         const command = client.commands.get(inter.commandName);
 
-    if (!command) return inter.reply({ embeds: [ new EmbedBuilder().setColor('#ff0000').setDescription('❌ | Error! Please contact Developers!')], ephemeral: true, }), client.slash.delete(inter.commandName)
+    if (!command) return inter.reply({ embeds: [ new EmbedBuilder().setColor('#ff0000').setDescription('Error! Please contact Developers!')], ephemeral: true, }), client.slash.delete(inter.commandName)
     if (command.permissions && !inter.member.permissions.has(command.permissions)) return inter.reply({ embeds: [ new EmbedBuilder().setColor('#ff0000').setDescription(`Only members with \`${Private.roleName}\` role can use **InfoChannelBot**`)], ephemeral: true, })
     if (Private.enabled && Private.commands.includes(command) && !inter.member._roles.includes(inter.guild.roles.cache.find(x => x.name === Private.roleName).id)) return inter.reply({ embeds: [ new EmbedBuilder().setColor('#ff0000').setDescription(`Only members with \`${Private.roleName}\` role can use **InfoChannelBot** `)], ephemeral: true, })
         command.execute({ inter, client });
@@ -17,7 +17,7 @@ module.exports = (client, inter) => {
         if (file_of_button) {
             delete require.cache[require.resolve(`../src/buttons/${file_of_button}.js`)];
             const button = require(`../src/buttons/${file_of_button}.js`)
-            if (button) return button({ client, inter, customId, queue });
+            if (button) return button({ client, inter, customId});
         }
     }
 };
