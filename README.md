@@ -12,9 +12,9 @@
 ### MESSAGE CONTENT INTENT
 
 # 🚁 Setup
-### Go to ```config.json``` and replace your bot token and status
+### Go to ```config.js``` and replace your bot token and status
 ### Go to terminal/console and type ```npm install```
 ### After npm is installed, Type ```npm start```
 ### Note: If you got npm error, Type ```npm install node@16```
 
-### Enjoy!
+### Go in your server and type ```/setup```And Enjoy!
