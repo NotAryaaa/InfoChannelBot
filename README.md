@@ -24,4 +24,4 @@
 ### Check ```commands/core/setup.js``` too! If you have any problems, DM **NotArya#2021**
 
 # ⭐ Support
-### Support this project! Please star this project.
+### Support this project! Please ⭐ star this project.
