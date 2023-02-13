@@ -5,5 +5,12 @@ module.exports = {
         global: false, //Want your bot to be private or no, if yes, set this to *false* DEFAULT IS FALSE!
         guild: 'My_Guild_ID' //Your bot can only be used in this guild
     },
+  opt: {
+        Private: {
+            enabled: true,
+            roleName: 'infochannelbot',
+            commands: []
+        },
 
+}
 }
