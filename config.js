@@ -7,8 +7,8 @@ module.exports = {
     },
   opt: {
         Private: {
-            enabled: true,
-            roleName: 'infochannelbot',
+            enabled: false, //If enabled, only members with selected role can use setup command!
+            roleName: 'Put_Role_Name_Not_ID',
             commands: []
         },
 
