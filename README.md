@@ -1,3 +1,4 @@
+<img src="https://cdn.discordapp.com/attachments/1070673897126637609/1074718214287798332/image.png">
 # InfoChannelBot
 🤖 A Free Source Code For Info Channels In Servers
 
